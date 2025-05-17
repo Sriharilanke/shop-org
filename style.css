@@ -1,0 +1,92 @@
+*{
+    box-sizing: border-box;
+    margin: 0%;
+    /*border: 1px solid black;*/
+}
+.navbar-brand{
+    width: 10%;
+}
+.navbar{
+    background-color: rgb(239, 9, 85);
+    color: white;
+}
+.nav-link{
+    color: white;
+    font-weight: bold;
+}
+.navbar a{
+    color: white;
+}
+/* home section */
+.bgimg{
+    background-image: url("https://img.freepik.com/free-photo/contrasting-outdoor-textures_23-2149702238.jpg?ga=GA1.1.426038227.1724996658&semt=ais_hybrid");
+    width: 100vw;
+    height: 70vh;
+    background-size: cover;
+    background-position: center;
+}
+.hpart h1{
+    color: white;
+    text-shadow: 1px 2px 3px black;
+}
+.hpart .btn{
+    font-weight: bold;
+}
+/* About Section*/
+.acontent h1{
+    color:#e91e63;
+    margin-top: 3%;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+}
+.acontent p {
+    color: green;
+    margin-top: 3%;
+    line-height: 30px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+/* Products */
+.card-img-top{
+    width: 70%;
+}
+.card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card-title{
+    color:#e91e63;
+}
+.card-text{
+    color: green;
+    font-weight: bold;
+}
+/* payment*/
+.one{
+    background-color:#810830;
+    color:green;
+    border:none;
+    font-weight: bold;
+}
+/*contact*/
+.form-label{
+    color:#e91e63;
+    font-weight: bold;
+}
+/* footer*/
+.footer{
+    background-color: #e91e63;
+}
+.fhead{
+    color: white;
+    font-weight: bold;
+    text-decoration: underline 4px solid gold;
+}
+.icon .fa-brands{
+    font-size:25px;
+    color: whitesmoke;
+    margin: 1%;
+}
+.icon .fa-brands:hover {
+    color: greenyellow;
+
+}
